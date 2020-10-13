@@ -1,0 +1,231 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Custom Styling */
+
+body{
+    font-family: 'Karla', sans-serif;
+}
+
+.container{
+    margin:0 50px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    align-items: center;
+}
+
+.brand h1{
+    color: #2d263f;
+    font-size: 35px;
+    font-family: 'DM Serif Display', serif;
+}
+
+a{
+    text-decoration: none;
+    color: #6e6b72;
+    font-size: 20px;
+    margin: 0 10px;
+    font-weight: 700;
+}
+
+.anchor-border{
+    border: 1px solid #6e6b72;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.div{
+    display: flex;
+    background-color: #2d2640;
+    color: white;
+    height: 550px;
+}
+
+.text{
+    margin: 56px 50px;
+}
+
+.short-border{
+    border-top: 2px white solid;
+    display: inline-block;
+    width: 150px;
+}
+
+.text h2{
+    font-size: 50px;
+    margin-bottom: 20px;
+    padding: 30px 0;
+    color: white;
+    font-family: 'DM Serif Display', serif;
+}
+
+.text p{
+    margin-bottom: 50px;
+    line-height: 20px;
+}
+
+.text a{
+    margin: 0;
+    color: white;
+    border-color: white;
+}
+
+.side-img{
+    margin: 56px 50px;
+}
+
+.second-div{
+    margin: 80px 0;
+    background-color: white;
+    color: #6e6b72;
+
+}
+
+.text-div-margin{
+    margin: 100px 0;
+}
+
+.text-div-margin p{
+    font-size: 25px;
+    line-height: 30px;
+}
+
+.text-div-margin a{
+    color: #6e6b72;
+    border-color: #6e6b72;
+}
+
+.text-div-margin h2{
+    color: #2d263f;
+    font-family: 'DM Serif Display', serif;
+}
+
+.color{
+    border-color: #bebbc7;
+}
+
+.col{
+    display: flex;
+    justify-content: space-between;
+}
+
+.col-section h2{
+    font-size: 40px;
+    margin: 20px 0;
+    margin-bottom: 50px;
+    font-family: 'DM Serif Display', serif;
+}
+
+.col h3{
+    font-size: 30px;
+    margin: 10px 0;
+    font-family: 'DM Serif Display', serif;
+}
+
+.col p{
+    color: #6e6b72;
+    margin: 30px 0;
+}
+
+.row-one, .row-two, .row-three{
+    width: 30%;
+}
+
+.how-we-work{
+    background-color: #2d2640;
+    margin: 50px 0;
+    display: flex;
+    color: white;
+    font-size: 50px;
+    padding: 70px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.how-we-work h2{
+    flex: 0 1 42%;
+    font-family: 'DM Serif Display', serif;
+}
+
+.how-we-work a{
+    color: white;
+    margin-top: 10px;
+    border-width: 2px;
+    border-color: white;
+    padding-left:20px;
+    padding-right: 20px;
+}
+
+.heading-icon{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.heading-icon h2{
+    font-size: 36px;
+    color: #2d2640;
+    font-family: 'DM Serif Display', serif;
+}
+
+.icon i{
+    margin: 0 10px;
+}
+
+.end-nav-section{
+    text-align: center;
+    margin: 20px 0;
+}
+
+footer{
+    text-align: center;
+    background-color: #2d2640;
+    padding: 20px 0;
+    font-size: 20px;
+    color: #d1c1ff;
+}
